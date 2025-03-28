@@ -1,5 +1,15 @@
 ## 一键安装ufw+v2bx+科技lion脚本
 
+获取私库令牌
+
+```bash
+export GITHUB_TOKEN="ghp_xxxxxxxx"
+echo 'export GITHUB_TOKEN="ghp_xxxxxxxx"' >> ~/.bashrc
+source ~/.bashrc
+
+```
+
+
 您可以通过以下命令一键下载并执行安装脚本：
 
 ```bash
