@@ -3,6 +3,8 @@
 获取私库令牌
 
 ```bash
+apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y; sudo apt install git -y
+
 # 将 GITHUB_TOKEN 环境变量设置为你的访问令牌
 export GITHUB_TOKEN="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"
 
