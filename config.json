@@ -31,7 +31,7 @@
             "Core": "xray",
             "ApiHost": "https://ip.2333001.xyz",
             "ApiKey": "z9z5z7a6d5mf0in@",
-            "NodeID": 13,
+            "NodeID": 1, //vmess
             "NodeType": "vmess",
             "Timeout": 30,
             "ListenIP": "0.0.0.0",
@@ -58,7 +58,7 @@
             "Core": "sing",
             "ApiHost": "https://ip.2333001.xyz",
             "ApiKey": "z9z5z7a6d5mf0in@",
-            "NodeID": 4,
+            "NodeID": 2, //hysteria2
             "NodeType": "hysteria2",
             "Timeout": 30,
             "ListenIP": "::",
