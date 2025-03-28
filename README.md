@@ -3,8 +3,8 @@
 获取私库令牌
 
 ```bash
-export GITHUB_TOKEN="ghp_xxxxxxxx"
-echo 'export GITHUB_TOKEN="ghp_xxxxxxxx"' >> ~/.bashrc
+export GITHUB_TOKEN="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"
+echo 'export GITHUB_TOKEN="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"' >> ~/.bashrc
 source ~/.bashrc
 
 ```
