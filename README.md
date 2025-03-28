@@ -3,7 +3,7 @@
 您可以通过以下命令一键下载并执行安装脚本：
 
 ```bash
-apt-get install wget -y && wget -O setup.sh https://raw.githubusercontent.com/lisi-123/ufw-v2bx-kejilion/main/setup.sh && chmod +x setup.sh && ./setup.sh
+apt-get install wget -y && wget -O setup.sh https://raw.githubusercontent.com/lisi-123/private/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 此命令将执行以下操作：
@@ -26,15 +26,6 @@ apt-get install wget -y && wget -O setup.sh https://raw.githubusercontent.com/li
 
 ----------------------------------------------------------------------
 
-以下是去除科技lion脚本的纯净版
-
-
-```bash
-apt-get install wget -y && wget -O clean.sh https://raw.githubusercontent.com/lisi-123/ufw-v2bx-kejilion/main/clean.sh && chmod +x clean.sh && ./clean.sh
-```
-
-<br>
-<br>
 
 ## 临时禁用ipv6
 当vps同时存在v4和v6,且v6优先时候，可能会导致安装脚本出问题
@@ -50,7 +41,7 @@ sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 ## 一键解锁warp
 
 ```bash
-wget -O setup1.sh https://raw.githubusercontent.com/lisi-123/ufw-v2bx-kejilion/main/setup1.sh && chmod +x setup1.sh && ./setup1.sh
+wget -O setup1.sh https://raw.githubusercontent.com/lisi-123/private/main/setup1.sh && chmod +x setup1.sh && ./setup1.sh
 ```
 
 此命令将执行以下操作：
