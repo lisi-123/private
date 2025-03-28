@@ -57,7 +57,8 @@ sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 ## 一键解锁warp
 
 ```bash
-wget --header="Authorization: token $GITHUB_TOKEN" -O setup1.sh https://raw.githubusercontent.com/lisi-123/private/main/setup1.sh && chmod +x setup1.sh && ./setup1.sh
+sudo chmod +x /root/private/setup1.sh && sudo /root/private/setup1.sh
+
 ```
 
 此命令将执行以下操作：
