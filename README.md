@@ -13,6 +13,15 @@ git clone https://$GITHUB_TOKEN@github.com/lisi-123/private.git
 
 ```
 
+重新拉取库
+
+```bash
+rm -rf private
+git clone https://$GITHUB_TOKEN@github.com/lisi-123/private.git
+
+```
+
+
 
 您可以通过以下命令一键下载并执行安装脚本：
 
