@@ -17,7 +17,8 @@ git clone https://$GITHUB_TOKEN@github.com/lisi-123/private.git
 您可以通过以下命令一键下载并执行安装脚本：
 
 ```bash
-apt-get install wget -y && wget --header="Authorization: token $GITHUB_TOKEN" -O setup.sh https://raw.githubusercontent.com/lisi-123/private/main/setup.sh && chmod +x setup.sh && ./setup.sh
+sudo chmod +x /root/private/setup.sh && sudo /root/private/setup.sh
+
 ```
 
 
