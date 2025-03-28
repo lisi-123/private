@@ -3,9 +3,11 @@
 获取私库令牌
 
 ```bash
+# 将 GITHUB_TOKEN 环境变量设置为你的访问令牌
 export GITHUB_TOKEN="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"
-echo 'export GITHUB_TOKEN="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"' >> ~/.bashrc
-source ~/.bashrc
+
+# 克隆私有仓库（替换为你的仓库地址）
+git clone https://$GITHUB_TOKEN@github.com/lisi-123/private.git
 
 ```
 
