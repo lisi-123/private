@@ -54,61 +54,6 @@
                     "EnvName": "env1"
                 }
             }
-        },{
-            "Core": "xray",
-            "ApiHost": "https://ip.2333001.xyz",
-            "ApiKey": "z9z5z7a6d5mf0in@",
-            "NodeID": 25,
-            "NodeType": "vmess",
-            "Timeout": 30,
-            "ListenIP": "0.0.0.0",
-            "SendIP": "0.0.0.0",
-            "DeviceOnlineMinTraffic": 1000,
-            "EnableProxyProtocol": false,
-            "EnableUot": true,
-            "EnableTFO": true,
-            "EnableDNS": true,
-            "DNSType": "UseIPv4",
-            "CertConfig": {
-                "CertMode": "none",
-                "RejectUnknownSni": false,
-                "CertDomain": "example.com",
-                "CertFile": "/etc/V2bX/fullchain.cer",
-                "KeyFile": "/etc/V2bX/cert.key",
-                "Email": "v2bx@github.com",
-                "Provider": "cloudflare",
-                "DNSEnv": {
-                    "EnvName": "env1"
-                }
-            }
-        }, {
-            "Core": "xray",
-            "ApiHost": "https://ip.2333001.xyz",
-            "ApiKey": "z9z5z7a6d5mf0in@",
-            "NodeID": 3,
-            "NodeType": "shadowsocks",
-            "Timeout": 30,
-            "ListenIP": "0.0.0.0",
-            "SendIP": "0.0.0.0",
-            "DeviceOnlineMinTraffic": 1000,
-            "EnableProxyProtocol": false,
-            "EnableUot": true,
-            "EnableTFO": true,
-            "EnableDNS": true,
-            "DNSType": "AsIs",
-            "DisableSniffing": false,
-            "CertConfig": {
-                "CertMode": "none",
-                "RejectUnknownSni": false,
-                "CertDomain": "example.com",
-                "CertFile": "/etc/V2bX/fullchain.cer",
-                "KeyFile": "/etc/V2bX/cert.key",
-                "Email": "v2bx@github.com",
-                "Provider": "cloudflare",
-                "DNSEnv": {
-                    "EnvName": "env1"
-                }
-            }
         }, {
             "Core": "sing",
             "ApiHost": "https://ip.2333001.xyz",
