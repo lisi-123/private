@@ -3,7 +3,7 @@
 获取私库令牌
 
 ```bash
-apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y; sudo apt install git -y
+apt-get update; apt install sudo -y; sudo apt install git -y
 
 export GITHUB_TOKEN="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"
 
