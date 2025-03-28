@@ -43,7 +43,7 @@
           "(.bank.)",
           "(.*.||)(pincong).(rocks)",
           "(.*.||)(taobao).(com)",
-          "(.*.||)(laomoe|jiyou|ssss|lolicp|vv1234|0z|4321q|868123|ksweb|mm126).(com|cloud|fun|cn|gs|xyz|cc)",
+          "(.*.||)(laomoe|jiyou|ssss|lolicp|vv1234|0z|4321q|868123|ksweb|mm126|ping0).(com|cloud|fun|cn|gs|xyz|cc)",
           "(flows|miaoko).(pages).(dev)"
         ],
         "outbound": "block"
@@ -52,10 +52,8 @@
         "domain_regex": [  // 走 SOCKS 代理的域名（有需要可以继续添加）
           "openai.com", // OpenAI
           "oaiusercontent.com", 
-          "google.com", // Google
+          "google", // Google
           "gstatic.com", 
-          "googleapis.com", 
-          "googleusercontent.com",
           "gvt1.com", 
           "ggpht.com", 
           "googlevideo.com", 
@@ -69,7 +67,7 @@
           "instagramad.com", 
           "akamaihd.net", 
           "stripe.com", // 支付
-          "amazon.com", 
+          "amazon",  // 亚马逊
           "cloudflare.com", // 云服务
           "intercom.io", // 客服
           "pypi.org", // 开发工具
@@ -77,7 +75,8 @@
           "sentry.io", 
           "diwodiwo.xyz", // 其他
           "hanime1.me", 
-          "browserscan.net", // IP 检测
+          "browserscan.net",  // IP 检测
+          "test-ipv6", 
           "ipleak.net" 
         ],
         "outbound": "socks_proxy"
