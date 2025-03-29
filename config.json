@@ -41,7 +41,7 @@
             "EnableUot": true,
             "EnableTFO": true,
             "EnableDNS": true,
-            "DNSType": "UseIPv4",
+            "DNSType": "UseIP",
             "CertConfig": {
                 "CertMode": "none",
                 "RejectUnknownSni": false,
