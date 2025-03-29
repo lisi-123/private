@@ -69,6 +69,7 @@
           "stripe.com", // 支付
           "amazon",  // 亚马逊
           "cloudflare.com", // 云服务
+          "cloudns.net",
           "intercom.io", // 客服
           "pypi.org", // 开发工具
           "npmjs.com", 
