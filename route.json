@@ -9,6 +9,7 @@
     "regexp:amazon",
     "regexp:auth0",
     "regexp:cloudflare",
+    "regexp:cloudns",
     "regexp:diwodiwo",
     "regexp:facebook",
     "regexp:fbcdn",
