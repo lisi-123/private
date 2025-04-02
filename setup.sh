@@ -12,10 +12,9 @@ sudo apt install nano -y
 # 配置防火墙规则
 sudo ufw allow ssh
 sudo ufw allow 25/tcp
-sudo ufw allow 53
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
-sudo ufw allow 853
+sudo ufw allow 2096/tcp
 sudo ufw allow 44443/tcp
 sudo ufw allow 33332/tcp
 sudo ufw allow 35000:36000/udp
