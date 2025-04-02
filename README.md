@@ -28,18 +28,6 @@ sudo chmod +x /root/private/setup.sh && sudo /root/private/setup.sh
 
 ```
 
-## 一键解锁warp
-
-```bash
-sudo chmod +x /root/private/setup1.sh && sudo /root/private/setup1.sh
-
-```
-
-此命令将执行以下操作：
-
-1.自动安装warp，并设置本地socks5代理（默认使用40000端口，请勿占用）
-
-2.自动替换v2bx的路由文件
 
 <br>
 
