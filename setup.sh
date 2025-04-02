@@ -75,5 +75,7 @@ jq --argjson node_id "$NODE_ID_1" '(.Nodes[] | select(.NodeID == 1)) .NodeID = $
 # 2. 修改 "NodeID" 为 2 的节点
 jq --argjson node_id "$NODE_ID_2" '(.Nodes[] | select(.NodeID == 2)) .NodeID = $node_id' $CONFIG_FILE > temp_config.json && mv temp_config.json $CONFIG_FILE
 
+V2bX restart
+
 # 输出完成信息
-echo "NodeID 已更新成功！已自动配置warp解锁，重启v2bx生效"
+echo "NodeID 已更新成功！已自动配置warp解锁，v2bx已启动"
