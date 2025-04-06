@@ -1,4 +1,13 @@
 {
+  "dns": {
+    "servers": [
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1",
+        "strategy": "prefer_ipv6"
+      }
+    ]
+  },
   "outbounds": [
     {
       "tag": "direct",   // 直接连接
