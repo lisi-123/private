@@ -40,7 +40,9 @@
         {
             "outboundTag": "block",
             "ip": [
-                "geoip:private"
+                "geoip:private",
+                "geoip:cn",
+                "geosite:cn"
             ]
         },
         {
