@@ -10,7 +10,7 @@
     "regexp:auth0",
     "regexp:cloudflare",
     "regexp:cloudns",
-    "regexp:diwodiwo", // bika
+    "regexp:diwodiwo",
     "regexp:facebook",
     "regexp:fbcdn",
     "regexp:fbsbx",
@@ -24,7 +24,7 @@
     "regexp:openai",
     "regexp:paramount",
     "regexp:pixiv",
-    "regexp:picacomic", // bika
+    "regexp:picacomic",
     "regexp:pypi",
     "regexp:recaptcha",
     "regexp:sentry",
