@@ -35,7 +35,7 @@ wget -N https://raw.githubusercontent.com/lisi-123/V2bX-script/master/install.sh
 sudo timedatectl set-timezone Asia/Shanghai
 
 # 添加定时任务（凌晨4点自动重启v2bx）
-CRON_JOB='0 4 * * * echo "6" | /usr/bin/v2bx'
+CRON_JOB='0 4 * * * /usr/bin/v2bx restart'
 (crontab -l 2>/dev/null; echo "$CRON_JOB") | sort -u | crontab -
 
 # 先下载并执行 menu.sh 脚本
