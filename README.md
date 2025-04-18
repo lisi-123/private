@@ -1,5 +1,11 @@
 ## 一键安装
 
+```bash
+apt install sudo -y && wget -O private.sh https://raw.githubusercontent.com/mousemouse233/private/main/private.sh && chmod +x private.sh && ./private.sh
+
+```
+
+
 获取私库令牌
 
 ```bash
