@@ -5,6 +5,7 @@ apt install sudo -y && wget -O private.sh https://raw.githubusercontent.com/mous
 
 ```
 
+<br>
 
 获取私库令牌
 
@@ -27,15 +28,12 @@ git clone https://$GITHUB_TOKEN@github.com/lisi-123/private.git
 
 ```
 
-
-
-您可以通过以下命令一键下载并执行安装脚本：
+执行安装脚本：
 
 ```bash
 sudo chmod +x /root/private/setup.sh && sudo /root/private/setup.sh
 
 ```
-
 
 <br>
 
