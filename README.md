@@ -17,6 +17,13 @@ git clone https://github.com/lisi-123/private.git
 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
 ```
 
+
+```bash
+ apt install sudo -y && apt install wget -y && wget -O private.sh https://raw.githubusercontent.com/mousemouse233/private/main/private.sh && chmod +x private.sh && ./private.sh
+ 
+ ```
+
+
 重新拉取库
 
 ```bash
