@@ -9,7 +9,6 @@
 ```bash
 apt-get update
 sudo apt install git -y
-
 git clone https://github.com/lisi-123/private.git
 
 ```
