@@ -13,15 +13,22 @@ sudo apt install nano -y
 # 设置iptables规则
 sudo iptables -t nat -A PREROUTING -p udp --dport 35000:36000 -j REDIRECT --to-port 50000
 
+# 保存规则
+mkdir -p /etc/iptables
+sudo iptables-save > /etc/iptables/rules.v4
+
 # 执行其他安装指令
 wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh && bash install.sh v0.1.10
 
 # 修改为上海时区
 sudo timedatectl set-timezone Asia/Shanghai
 
-# 添加定时任务（凌晨4点自动重启v2bx）
-CRON_JOB='0 4 * * * /usr/bin/v2bx restart'
-(crontab -l 2>/dev/null; echo "$CRON_JOB") | sort -u | crontab -
+# 添加定时任务（凌晨4点自动重启v2bx，每分钟检测warp状态）
+CRON_JOB1='0 4 * * * /usr/bin/v2bx restart'
+CRON_JOB2='* * * * * /root/v2bx-scr/socks5-check.sh'
+
+# 将任务添加到 crontab 并避免重复
+(crontab -l 2>/dev/null; echo "$CRON_JOB1"; echo "$CRON_JOB2") | sort -u | crontab -
 
 # 先下载并执行 menu.sh 脚本
 wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh <<< $'2\n13\n40000\n1\n'
