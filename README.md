@@ -14,7 +14,7 @@ git clone https://github.com/lisi-123/private.git
 ```
 
 ```bash
-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
+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
 ```
 
 重新拉取库
