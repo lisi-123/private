@@ -1,7 +1,7 @@
 ## 一键安装
 
 ```bash
-apt install sudo -y && wget -O private.sh https://raw.githubusercontent.com/mousemouse233/private/main/private.sh && chmod +x private.sh && ./private.sh
+apt install sudo -y && apt install wget -y && wget -O private.sh https://raw.githubusercontent.com/mousemouse233/private/main/private.sh && chmod +x private.sh && ./private.sh
 
 ```
 
