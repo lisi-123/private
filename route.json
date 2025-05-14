@@ -36,8 +36,8 @@
     "regexp:youtube",
     "regexp:ytimg",
     "regexp:ipleak"
-      ]
-    },
+            ]
+        },
         {
             "outboundTag": "block",
             "ip": [
@@ -70,6 +70,10 @@
                 "regexp:(.*.||)(laomoe|jiyou|ssss|lolicp|vv1234|0z|4321q|868123|ksweb|mm126).(com|cloud|fun|cn|gs|xyz|cc)",
                 "regexp:(flows|miaoko).(pages).(dev)"
             ]
+        },
+        {
+            "outboundTag": "socks5-warp",
+            "domain": [ "geosite:cn"]
         },
         {
             "outboundTag": "block",
